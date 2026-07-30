@@ -40,22 +40,22 @@ body
     color: #22d5fdaf;
     transition: 0.3s;
 }
-main
+#apresentacao
 {   
     flex: 1;
-    padding-top: 8%;
+    padding: 8% 10%;
     display: flex;
     justify-content: center; /*alinhamento horizontal*/
-    gap: 12vw;
+    gap: 8vw;
 }
-#textos
+#apresentacao__textos
 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    align-items: center;
     gap: 30px;
-    max-width: 500px;
-    max-height: 400px;
+    max-width: 40%;
 }
 h1 
 {   
@@ -69,7 +69,7 @@ h1
 {
     color: #22D4FD;
 }
-p
+.textos_sobre
 {
     font-size: 1rem;
     color: #f6f6f6;
@@ -77,10 +77,9 @@ p
     font-weight: 200;
 }
 
-img
+.foto__perfil
 {
-    height: 400px;
-    width: 370px;
+    width: 80%;
 }
 
 #rodape
@@ -99,4 +98,37 @@ img
     color: black;
     font-family: 'Montserrat';
     font-weight: 500;
+}
+
+
+@media (max-width: 950px){
+    .cabecalho_nav_link{
+        font-size: 0.8rem;
+    }
+    #title {
+        font-size: 1rem;
+    }
+    .textos_sobre{
+        font-size: 0.7rem;
+    }
+    #apresentacao{
+        flex-direction: column-reverse;
+        gap: 5vh;
+    }
+    .apresentacao__section{
+        min-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .foto__perfil{
+        width: 60%;
+    }
+    #links_titulo{
+        font-size: 0.8rem;
+    }
+    .links_link{
+        width: 70vw;
+    }
+    
 }
