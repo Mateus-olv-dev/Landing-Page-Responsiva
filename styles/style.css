@@ -9,12 +9,12 @@ body
   background-color: #000101;
   box-sizing: border-box;
   min-height: 100vh;
+  min-width: 100%;
   display: flex;
   flex-direction: column;
 }
 #cabecalho
 {  
-    width: 100vw;
     height: 8vh;
     box-sizing: border-box;
     display: flex;
@@ -22,10 +22,9 @@ body
 }
 #cabecalho_nav
 {
-    margin-left: 15vw;
+    padding-left: 10%;
     display: flex;
     align-items: center;
-    padding: 24px;
     gap: 40px;
 }
 .cabecalho_nav_link
@@ -57,7 +56,7 @@ body
     justify-content: flex-start;
     align-items: center;
     gap: 30px;
-    max-width: 40%;
+    max-width: 50%;
 }
 #title
 {   
@@ -78,7 +77,10 @@ body
     font-family: 'Montserrat';
     font-weight: 200;
 }
-
+.apresentacao__img
+{
+    max-width: 50%;
+}
 .foto__perfil
 {
     width: 80%;
@@ -127,7 +129,7 @@ body
 {
     box-sizing: border-box;
     background-color: #22D4FD;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -172,6 +174,7 @@ body
     .links_link{
         width: 60vw;
         font-size: 0.8rem;
+        padding: 8px;
     }
     .links_link_img{
         width: 15px;
