@@ -124,11 +124,8 @@ h1
     .foto__perfil{
         width: 60%;
     }
-    #links_titulo{
+    #rodape_texto
+    {
         font-size: 0.8rem;
     }
-    .links_link{
-        width: 70vw;
-    }
-    
 }

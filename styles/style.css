@@ -180,4 +180,8 @@ body
         width: 15px;
         height: 15px;
     }
+    #rodape_texto
+    {
+        font-size: 0.8rem;
+    }
 }
