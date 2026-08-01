@@ -1,3 +1,5 @@
+![Preview do projeto](./screenshot/home.png)
+
 Este projeto consiste em uma página web desenvolvida durante as semanas 5 a 8 da formação Include Alura. O objetivo foi colocar em prática conceitos fundamentais de desenvolvimento web, desde a estruturação do HTML até a estilização com CSS, incluindo responsividade, navegação entre páginas e publicação da aplicação.
 
 ## Objetivos
