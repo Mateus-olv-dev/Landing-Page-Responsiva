@@ -17,9 +17,8 @@ Durante este projeto foram praticados os seguintes conceitos:
 - HTML5
 - CSS3
 - Git
-- GitHub
-- GitHub Pages
+- Vercel
 
 ## Acesse o projeto
 
-https://seuusuario.github.io/repositorio/
+Lading page responsiva[https://landing-page-responsiva-sigma.vercel.app/]
