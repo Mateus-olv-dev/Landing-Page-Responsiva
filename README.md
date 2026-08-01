@@ -21,4 +21,4 @@ Durante este projeto foram praticados os seguintes conceitos:
 
 ## Acesse o projeto
 
-Lading page responsiva[https://landing-page-responsiva-sigma.vercel.app/]
+[Lading page responsiva](https://landing-page-responsiva-sigma.vercel.app/)
